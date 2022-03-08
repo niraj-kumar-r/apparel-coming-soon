@@ -52,5 +52,6 @@ body {
 .paragraph {
     color: var(--primary-two);
     width: 80%;
-    margin: auto;
+    font-size: 0.75rem;
+    margin: 0rem auto 2.5rem;
 }
