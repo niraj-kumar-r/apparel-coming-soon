@@ -52,9 +52,10 @@ body {
 }
 
 .paragraph {
-    color: var(--primary-two);
-    width: 80%;
+    color: var(--primary-one);
+    width: 70%;
     font-size: 0.75rem;
+    line-height: 1.1rem;
     margin: 0rem auto 2.5rem;
 }
 
@@ -64,13 +65,15 @@ body {
 }
 
 .form-input {
-    /* background-color: blue; */
+    background-color: transparent;
+    color: var(--primary-two);
+    font-weight: 300;
     box-sizing: border-box;
     font-family: "Josefin Sans", sans-serif;
     height: 3rem;
     width: 80%;
     padding-left: 1.5rem;
-    border: solid 0.1rem var(--primary-one);
+    border: solid 0.065rem var(--primary-two);
     border-radius: 1.75rem;
 }
 
