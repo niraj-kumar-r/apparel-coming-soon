@@ -5,8 +5,6 @@ body {
     padding: 0;
     margin: 0;
 
-    text-align: center;
-
     --primary-one: hsl(0, 93%, 68%);
     --primary-two: hsl(0, 36%, 70%);
     --neutral-one: hsl(0, 6%, 24%);
@@ -17,16 +15,33 @@ body {
      */
 }
 
+.wrapper {
+    display: grid;
+    text-align: center;
+}
+
+.logo-header {
+    padding: 2rem 2.5rem 2rem;
+    text-align: left;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
 .main-img {
-    height: 15.5rem;
+    height: 15.625rem;
+
     display: block;
     background-image: url(/images/hero-mobile.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+
+    background-position: center;
+    /* background-size: cover; */
 }
 
 .heading {
     font-weight: 600;
     letter-spacing: 1rem;
+    margin: 4rem auto 2rem;
 }
 
 .heading-highlight {
