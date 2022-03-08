@@ -43,6 +43,7 @@ body {
     letter-spacing: 1rem;
     margin: 4rem auto 2rem;
     color: var(--neutral-one);
+    line-height: 2.25rem;
 }
 
 .heading-highlight {
@@ -72,6 +73,11 @@ body {
     border: solid 0.1rem var(--primary-one);
     border-radius: 1.75rem;
 }
+
+/* Gradients
+- Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
+*/
 
 .form-button {
     position: absolute;
