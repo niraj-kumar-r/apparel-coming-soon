@@ -23,3 +23,13 @@ body {
     background-image: url(/images/hero-mobile.jpg);
     background-repeat: no-repeat;
 }
+
+.heading {
+    font-weight: 600;
+    letter-spacing: 1rem;
+}
+
+.heading-highlight {
+    color: var(--primary-two);
+    font-weight: 300;
+}
