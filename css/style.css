@@ -111,11 +111,11 @@ body {
     outline-color: var(--primary-one);
 }
 
-input:invalid .form-input::before {
+.form-input:invalid .form-input::before {
     content: url(/images/icon-error.svg);
-    height: 100%;
-    width: 20rem;
-    background-color: red;
+    background-color: blue;
+    height: 50rem;
+    width: 50rem;
 }
 
 @media screen and (min-width: 768px) {
