@@ -138,6 +138,7 @@ body {
     .wrapper {
         position: relative;
         grid-template-columns: 57.64% 42.36%;
+        grid-template-rows: 8rem 20rem 9rem auto;
         text-align: left;
         align-items: center;
     }
@@ -167,12 +168,12 @@ body {
 
     .logo-header {
         padding: 0;
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
     .heading {
-        font-size: 3.5rem;
+        font-size: 4rem;
         line-height: 4.5rem;
-        align-self: flex-end;
+        align-self: flex-start;
         margin-bottom: 1.75rem;
     }
 
