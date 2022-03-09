@@ -115,8 +115,7 @@ body {
 .error-icon {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-6rem);
 }
 
 @media screen and (min-width: 768px) {
@@ -179,7 +178,7 @@ body {
     }
 
     .form-button {
-        width: clamp(4rem, 12%, 7rem);
+        width: clamp(4rem, 20%, 7rem);
     }
 
     .attribution {
@@ -188,5 +187,9 @@ body {
         transform: translateY(-150%);
         margin-left: 12.75%;
         background-color: transparent;
+    }
+
+    .error-icon {
+        transform: translateY(-50%) translateX(-7rem);
     }
 }
