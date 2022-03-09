@@ -18,6 +18,10 @@ form.addEventListener("submit", function (event) {
         showError();
 
         event.preventDefault();
+    } else {
+        alert(
+            "Thank you for subscribing. Your privacy is our topmost priority so rest assured, your data is in safe hands."
+        );
     }
 });
 
