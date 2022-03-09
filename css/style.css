@@ -54,6 +54,8 @@ body {
 .paragraph {
     color: var(--primary-one);
     width: 70%;
+    max-width: 30rem;
+
     font-size: 0.75rem;
     line-height: 1.1rem;
     margin: 0rem auto 2.5rem;
@@ -71,7 +73,9 @@ body {
     box-sizing: border-box;
     font-family: "Josefin Sans", sans-serif;
     height: 3rem;
-    width: 80%;
+    width: clamp(18rem, 70%, 25rem);
+
+    max-width: 25rem;
     padding-left: 1.5rem;
     border: solid 0.065rem var(--primary-two);
     border-radius: 1.75rem;
