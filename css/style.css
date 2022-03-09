@@ -78,6 +78,7 @@ body {
     max-width: 25rem;
     padding-left: 1.5rem;
     border: solid 0.1rem var(--primary-two);
+    /* outline color is the colr of outline when typing */
     outline-color: var(--primary-two);
     border-radius: 1.75rem;
 }
