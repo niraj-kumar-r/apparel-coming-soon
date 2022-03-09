@@ -62,8 +62,9 @@ body {
 }
 
 .form {
-    /* background-color: green; */
     position: relative;
+    justify-self: center;
+    width: clamp(18rem, 70%, 24rem);
 }
 
 .form-input {
@@ -73,7 +74,7 @@ body {
     box-sizing: border-box;
     font-family: "Josefin Sans", sans-serif;
     height: 3rem;
-    width: clamp(18rem, 70%, 24rem);
+    width: 100%;
 
     max-width: 25rem;
     padding-left: 1.5rem;
@@ -111,11 +112,11 @@ body {
     outline-color: var(--primary-one);
 }
 
-.form-input:invalid .form-input::before {
-    content: url(/images/icon-error.svg);
-    background-color: blue;
-    height: 50rem;
-    width: 50rem;
+.error-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
 }
 
 @media screen and (min-width: 768px) {
@@ -169,10 +170,12 @@ body {
 
     .form {
         align-self: flex-start;
+        justify-self: auto;
+        width: 46.11%;
     }
 
     .form-input {
-        width: 80%;
+        width: 100%;
     }
 
     .form-button {
