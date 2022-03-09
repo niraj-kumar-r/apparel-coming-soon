@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Check My Solution on Frontend Mentor](https://www.frontendmentor.io/profile/niraj-kumar-r)
+-   Solution URL: [Check My Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/first-time-validating-a-form-with-consatraint-validation-api-PQOHTNlVp#comment-6228e065f54ba2795707303f)
 -   Live Site URL: [Base Apparel](https://niraj-base-apparel.netlify.app/)
 
 ## My process
