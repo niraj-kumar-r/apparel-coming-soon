@@ -68,7 +68,10 @@
                     required
                     autocomplete="email"
                 />
-                />
+                <span class="error" aria-live="polite"></span>
+
+                <!-- Normally, only aria-live="polite" is used. Any region which receives updates that are important for the user to receive, but not so rapid as to be annoying, should receive this attribute. The screen reader will speak changes whenever the user is idle. -->
+
                 <button
                     class="form-button"
                     type="submit"
