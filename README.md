@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![finished-desktop](design/finished-desktop.png)
+![finished-desktop](design/desk2.png)
 ![finished-mobile](design/finished-mobile.png)
 
 ### Links
