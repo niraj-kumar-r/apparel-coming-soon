@@ -17,6 +17,7 @@ body {
 
 .wrapper {
     display: grid;
+
     text-align: center;
 }
 
@@ -112,10 +113,20 @@ body {
     outline-color: var(--primary-one);
 }
 
+.error {
+    position: absolute;
+    top: 100%;
+    left: 1.5rem;
+    transform: translateY(50%);
+    font-size: 0.8rem;
+    color: var(--primary-one);
+}
+
 .error-icon {
     position: absolute;
     top: 50%;
     transform: translateY(-50%) translateX(-6rem);
+    display: none;
 }
 
 @media screen and (min-width: 768px) {
