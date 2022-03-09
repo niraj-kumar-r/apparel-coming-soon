@@ -107,11 +107,15 @@ body {
     box-shadow: 0rem 0.8rem 0.5rem 0.2rem rgba(0, 0, 0, 0.02);
 }
 
+.form-button:hover,
+.form-button:focus {
+    opacity: 0.7;
+    outline-color: hsla(0, 93%, 68%, 1);
+}
+
 /* form validation  can be done using html5 but we need js to customise it*/
 
-.form-input:invalid {
-    outline-color: var(--primary-one);
-}
+/* can use form-input:invalid and form-input:focus:invalid */
 
 .error {
     position: absolute;
@@ -125,6 +129,7 @@ body {
 .error-icon {
     position: absolute;
     top: 50%;
+    left: 100%;
     transform: translateY(-50%) translateX(-6rem);
     display: none;
 }
