@@ -105,6 +105,19 @@ body {
     box-shadow: 0rem 0.8rem 0.5rem 0.2rem rgba(0, 0, 0, 0.02);
 }
 
+/* form validation  can be done using html5 but we need js to customise it*/
+
+.form-input:invalid {
+    outline-color: var(--primary-one);
+}
+
+input:invalid .form-input::before {
+    content: url(/images/icon-error.svg);
+    height: 100%;
+    width: 20rem;
+    background-color: red;
+}
+
 @media screen and (min-width: 768px) {
     .wrapper {
         position: relative;
