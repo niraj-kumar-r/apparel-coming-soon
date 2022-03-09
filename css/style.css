@@ -73,7 +73,7 @@ body {
     box-sizing: border-box;
     font-family: "Josefin Sans", sans-serif;
     height: 3rem;
-    width: clamp(18rem, 70%, 25rem);
+    width: clamp(18rem, 70%, 24rem);
 
     max-width: 25rem;
     padding-left: 1.5rem;
@@ -99,4 +99,71 @@ body {
 
     padding: 0;
     margin: 0;
+    box-shadow: 0rem 0.8rem 0.5rem 0.2rem rgba(0, 0, 0, 0.02);
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        position: relative;
+        grid-template-columns: 57.64% 42.36%;
+        text-align: left;
+        align-items: center;
+    }
+
+    .wrapper::before {
+        content: url(/images/bg-pattern-desktop.svg);
+        height: 100%;
+        width: auto;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .wrapper > * {
+        margin-left: 0;
+        margin-left: 22%;
+    }
+    .main-img {
+        background-image: url(/images/hero-desktop.jpg);
+        background-position: center;
+        grid-row: span 4;
+        grid-column: 2;
+        justify-self: right;
+        height: 50rem;
+        width: 100%;
+    }
+
+    .logo-header {
+        padding: 0;
+        margin-top: 4rem;
+    }
+    .heading {
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+        align-self: flex-end;
+        margin-bottom: 1.75rem;
+    }
+
+    .paragraph {
+        font-size: 1rem;
+        line-height: 2rem;
+        align-self: flex-start;
+        margin-bottom: 0%;
+        width: 52%;
+    }
+
+    .form {
+        align-self: flex-start;
+    }
+
+    .form-input {
+        width: 80%;
+    }
+
+    .attribution {
+        margin-top: 0%;
+        position: absolute;
+        transform: translateY(-100%);
+        margin-left: 12.75%;
+        background-color: transparent;
+    }
 }
